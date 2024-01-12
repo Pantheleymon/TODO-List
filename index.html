@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO List</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <div id="modal">
+        <div class="modal__window">
+            <a href="" id="close-modal" class="modal__window_close">
+                <span class="material-symbols-outlined">
+                    close
+                </span>
+            </a>
+            <h2>Опишите вашу задачу:</h2>
+            <input type="text" placeholder="Введите текст..." id="modal__add_task_input">
+            <button id="modal__add_task">Добавить</button>
+        </div>
+    </div>
+    <header>
+        <div class="container">
+            <h1>TODO List</h1>
+            <p>Место, где ты можешь спланировать свои задачи!</p>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div id="task-container"></div>
+            
+            <!-- <div class="task">
+                <div class="task-condition">
+                    <span class="material-symbols-outlined">
+                        radio_button_unchecked
+                        </span>
+                </div>
+                <div class="task-text">
+                    <p>Текст</p>
+                </div>
+                <div class="task-favorite">
+                    <span class="material-symbols-outlined">
+                        star
+                        </span>
+                </div>
+
+                <div class="task-delete">
+                    <span class="material-symbols-outlined">
+                        delete
+                        </span>
+                </div>
+            </div> -->
+
+            <div class="buttons">
+                <a id="add-task">Создать задачу</a>
+                <a id="clear-tasks">Очистить задачи</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container"></div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
